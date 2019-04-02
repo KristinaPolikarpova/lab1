@@ -5,6 +5,7 @@ int a, b;
 	printf ("введите два целых числа:/n");
 	scanf ("%d\n%d\n", &a, &b);
 	int x=a+b
+	int y=a-b
 	printf ("%d\n%d\n", a, b);
 return 0;
 }
