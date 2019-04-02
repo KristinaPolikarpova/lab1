@@ -1,2 +1,9 @@
 #include <stdio.h>
 int main ()
+{
+int a, b;
+	printf ("введите два целых числа:/n");
+	scanf ("%d\n%d\n", &a, &b);
+	printf ("%d\n%d\n", a, b);
+return 0;
+}
