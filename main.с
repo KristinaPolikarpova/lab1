@@ -1,6 +1,7 @@
 #include <stdio.h>
 // Учебная программа
-int main ()
+
+int main ()  
 {
 int a, b;
 	printf ("введите два целых числа:/n");
