@@ -1,6 +1,5 @@
 #include <stdio.h>
 // Учебная программа
-
 int main ()
 
 {
