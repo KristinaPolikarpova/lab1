@@ -1,15 +1,22 @@
 #include <stdio.h>
 // Учебная программа
 
-int main ()  
+int main ()
+
 {
-int a, b;
-	printf ("введите два целых числа:/n");
-	scanf ("%d\n%d\n", &a, &b);
-	int x=a+b
-	int z=a-b
-	int y=a*b
-	int p=a/b
-	printf ("%d\n%d\n", a, b);
+	int a,b,x,y,p,z;
+	printf ("введите два целых числа:\n", a,b);
+	printf ("a=");
+	scanf ("%d", &a);
+	printf ("b=");
+	scanf ("%d", &b);
+	x=a+b;
+	printf ("%d+%d=%d\n", a,b,x);
+	z=a-b;
+	printf ("%d-%d=%d\n", a,b,z);
+	y=a*b;
+	printf ("%d*%d=%d\n", a,b,y);
+	p=a/b;
+	printf ("%d/%d=%d\n", a,b,p);
 return 0;
 }
